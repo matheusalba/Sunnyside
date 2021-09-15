@@ -2,10 +2,10 @@
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
-## my version
+## My version
 
-(./images/one.png)
-(./images/two.png)
+![foto](images/one.PNG)
+![foto](images/two.PNG)
 
 ## Welcome! 👋
 
