@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+#page{
+    position: relative;
+    margin: auto;
+    /*border: black dashed 2px;*/
+    width: 1440px;
+}
+#block-one{
+    width: 1440px;
+    height: 800px;
+    /*border: 2px dashed red;*/
+    background: url('./images/desktop/image-header.jpg') no-repeat;
+    background-size: 1440px;
+    
+}
+#block-two{
+    width: 1440px;
+    height: 1800px;
+    /*border: 2px dashed blue;*/
+    display: grid;
+
+    grid-template-areas: 
+    "header header"
+    "body body"
+    "footer footer"
+    ;
+}
+.item{
+    /*border: black dashed 2px;*/
+    background-color: rgb(243, 232, 219);
+    width: 720px;
+    height: 600px;
+    
+}
+#item-one{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 18px;
+}
+#item-two{
+    background-image: url("./images/desktop/image-transform.jpg");
+}
+#item-tree{
+    background-image: url("./images/desktop/image-stand-out.jpg");
+}
+#item-five{
+    background-image: url("./images/desktop/image-photography.jpg");
+}
+#item-six{
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+}
+#block-tree{
+    width: 1440px;
+    height: 900px;
+    background-color: rgb(243, 232, 219);
+    display: flex;
+    flex-direction: column;
+}
+#block-four{
+    width: 1440px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+}
+.photo{
+    width: 360px;
+    height: 450px;
+    
+
+}
+#photo-one{
+    background-image: url("./images/desktop/image-gallery-cone.jpg");
+    background-size: cover;
+}
+#photo-two{
+    background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
+    background-size: cover;
+}
+#photo-tree{
+    background-image: url("./images/desktop/image-gallery-orange.jpg");
+    background-size: cover;
+}
+#photo-four{
+    background-image: url("./images/desktop/image-gallery-sugarcubes.jpg");
+    background-size: cover;
+}
+#footer{
+    width: 1440px;
+    height: 400px;
+    background-color: rgb(117, 224, 215);
+}
+#clients{
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Fraunces';
+}
+.block-client{
+    height: 500px;
+    width: 480px;
+    /*border: solid red 2px;*/
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.title{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.perfil-client{
+    text-align: center;
+}
+.client-foto{
+    border-radius: 50%;
+}
+.client-text{
+    padding-top: 50px;
+    text-align: center;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+#menu{
+    display: flex;
+}
+.menu-item{
+    margin: 10px;
+    font-size: 20px;
+}
+#menu-title{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+#logo{
+    font-size: 40px;
+}
+#btn{
+    width: 100px;
+    border:none;
+    border-radius: 50px;
+}
